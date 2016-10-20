@@ -1,0 +1,28 @@
+{
+  "name": "express-egghead",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "^1.1.4",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "lodash": "^4.15.0",
+    "moment": "^2.14.1",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.5.9"
+  },
+  "devDependencies": {
+    "consolidate": "^0.14.1",
+    "handlebars": "^4.0.5",
+    "nodemon": "^1.11.0"
+  }
+}
